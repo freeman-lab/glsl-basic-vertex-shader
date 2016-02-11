@@ -16,7 +16,7 @@ varying vec3 vnormal;
 void main() {
   vposition = (model * animate * vec4(position, 1.0)).xyz;
   vnormal = normalize(modelNormal * animateNormal * normal);
-  gl_Position = proj * view * model * animate * vec4(position, 1.0);
+  gl_Position = proj * view * vec4(vposition, 1.0);
 }
 
 #pragma glslify: export(main)

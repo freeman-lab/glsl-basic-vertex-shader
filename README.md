@@ -38,5 +38,5 @@ Make sure you define all `attributes` and `uniforms`. The `varying` variables ca
 
 ### varying
 
-- `vec3` `vposition` calculated vertex position
-- `vec3` `vnormal` calculated vertex normal
+- `vec3` `vposition` computed vertex position
+- `vec3` `vnormal` computed vertex normal
