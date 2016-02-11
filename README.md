@@ -1,6 +1,6 @@
 # glsl-basic-vertex-shader
 
-GLSL snippet for a generic vertex shader for use with `glslify`. Designed for standalone use. Includes standard components like `model` `view` and `projection` matrices. You might find it useful if you find yourself writing this a lot.
+GLSL snippet for a generic vertex shader for use with `glslify`. Includes standard components like `model` `view` and `projection` matrices. Designed as standalone use. You might find it useful if you find yourself writing this a lot.
 
 ## install
 
@@ -19,6 +19,8 @@ Inside your vertex shader just call
 ```
 
 ## components
+
+Make sure you define all `attributes` and `uniforms`. The `varying` variables can be used in your fragment shader.
 
 ### attributes
 
