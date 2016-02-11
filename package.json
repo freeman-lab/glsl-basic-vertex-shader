@@ -1,0 +1,31 @@
+{
+  "name": "glsl-basic-vertex-shader",
+  "version": "1.0.0",
+  "description": "GLSL snippet for a generic vertex shader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeman-lab/glsl-basic-vertex-shader.git"
+  },
+  "keywords": [
+    "webgl",
+    "shader",
+    "3d",
+    "vertex",
+    "mat4"
+  ],
+  "author": "freeman-lab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeman-lab/glsl-basic-vertex-shader/issues"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  },
+  "homepage": "https://github.com/freeman-lab/glsl-basic-vertex-shader#readme"
+}
