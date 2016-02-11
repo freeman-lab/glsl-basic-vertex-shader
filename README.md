@@ -1,6 +1,6 @@
 # glsl-basic-vertex-shader
 
-GLSL snippet for a generic vertex shader for use with `glslify`. Includes standard components like `model` `view` and `projection` matrices. Designed as standalone use. You might find it useful if you find yourself writing this a lot.
+GLSL snippet for a generic vertex shader for use with [`glslify`](https://github.com/stackgl/glslify). Includes standard components like `model` `view` and `projection` matrices. Designed as standalone use. You might find it useful if you find yourself writing this a lot.
 
 ## install
 
